@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Ebac Shoes</title>
+</head>
+<body>
+    <header>
+        <div class="container container-header">
+            <h1>EBAC Shoes</h1>
+           
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#">Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>    
+    <div  class="container-submenu">
+        <nav >
+            <ul class="submenu">
+                <li>
+                    <a href="#">Sobre a loja</a>
+                </li>
+                <li>
+                    <a href="#">Produtos</a>
+                </li>
+                <li>
+                    <a href="#">Fale conosco</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <section>
+        <div class="container-section">
+            <!-- <img src="https://via.placeholder.com/320x320" alt=""> -->
+            <img src="./imagens/frente de loja de calçados___Design sem nome.png" alt="">
+            <div>
+                <h2>Sobre a loja</h2>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum magni eligendi expedita, deleniti natus beatae voluptatibus 
+                    dolores consequatur, reiciendis similique laborum culpa quibusdam, 
+                    pariatur atque voluptas. Fugit illum rerum magni.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum magni eligendi expedita, deleniti natus beatae voluptatibus 
+                    dolores consequatur, reiciendis similique laborum culpa quibusdam, 
+                    pariatur atque voluptas. Fugit illum rerum magni.
+                </p>
+            </div>
+        </div>       
+    </section>
+    <section>
+        <div class="container-secao-produtos">
+            <h2>
+                Produtos
+            </h2>
+            <hr>
+            <div >
+                <ul class="container-produtos">
+                    <li>
+                        <img src="./imagens/botas de couro___Design sem nome.png"/>
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button>Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="./imagens/Bota_modelo_2____Design sem nome.png"/>
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button>Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="./imagens/Bota_rustica__Design sem nome.png"/>
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button>Adicionar ao carrinho</button>
+                    </li>
+                    <li>
+                        <img src="./imagens/Ultmo_modelo_Design sem nome.png"/>
+                        <h2>Nome do produto</h2>
+                        <p>Descrição do produto</p>
+                        <button>Adicionar ao carrinho</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ========================================== -->
+    <Section class="fale-conosco">
+        <div class="linha-contato">
+            <h2>Fale conosco</h2>
+            <hr>
+            <div class="container-faleconosco">    
+
+                <div class="fale-conosco-1">
+                    <h3>Fale conosco</h3>
+                    <form>
+                        <input type="text" placeholder="Digite seu nome">
+                        <input type="email" placeholder="Digite seu email" >
+                        <input type="tel" placeholder=" Dogote seu telefone" >
+                        <textarea name="" id=""></textarea>
+                        <button>Enviar</button>
+                    </form>
+                </div>
+    
+                <div class="midias-sociais">
+                    <h3>Acompanhe-nos</h3>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./imagens/instagram.png" alt="instagram">
+                                <p>Instagram</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imagens/youtube.png" alt="youtube">
+                                <p>Youtube</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./imagens/facebook.png" alt="facebook">
+                                <p>Facebook</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Visite-nos</h3>
+                    <p>Rua dos Calçados s/n</p>
+                </div>
+            </div>
+        </div>
+    </Section>
+    
+    <footer>
+        <div>
+            <p>Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script>
+        $(document).ready(function(){
+    $(".menu-hamburguer").click(function(){
+        $(".submenu").slideToggle();
+    })
+})
+    </script>
+    
+</body>
+</html>
